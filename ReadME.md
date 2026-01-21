@@ -12,8 +12,6 @@
 
 <div align="center">
 
-![ComplyFlow Banner](https://via.placeholder.com/800x200/4F46E5/FFFFFF?text=ComplyFlow+-+Smart+Tax+Compliance)
-
 **An intelligent AI assistant that helps businesses navigate complex tax regulations with confidence.**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -189,7 +187,7 @@ Before you begin, ensure you have the following:
 #### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/<your-username>/complyflow.git
+git clone https://github.com/sdeevanapalli/complyflow-public.git
 cd complyflow
 ```
 
@@ -390,7 +388,18 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 🙏 Acknowledgments
+## � Contributors
+
+| Name | Contributions |
+| :--- | :--- |
+| [Shriniketh Deevanapalli](https://github.com/sdeevanapalli) (Team Lead) | Repo Management, PR reviews, Deployment |
+| [Vadla Srivardhan](https://github.com/vadlasrivardhan) | Frontend, UI/UX |
+| [Aniketh KB](https://github.com/aniketh2207) | Backend, AI Agents |
+| [Chaitanya Y](https://github.com/ychanakya12) | AI Agents, QA, Documentation |
+
+---
+
+## �🙏 Acknowledgments
 
 - **Google Cloud Platform** for Vertex AI and Document AI
 - **Django** and **React** communities

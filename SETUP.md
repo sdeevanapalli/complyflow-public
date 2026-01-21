@@ -144,8 +144,8 @@ Navigate to "APIs & Services" → "Library" and enable:
 3. If prompted, configure OAuth consent screen:
    - User Type: External
    - App name: ComplyFlow
-   - User support email: your-email@example.com
-   - Developer contact: your-email@example.com
+   - User support email: [Your email]
+   - Developer contact: [Your email]
    - Add scopes: `email`, `profile`, `openid`
 4. Create OAuth Client ID:
    - Application type: "Web application"
@@ -211,7 +211,7 @@ Navigate to "APIs & Services" → "Library" and enable:
 
    # In psql prompt:
    CREATE DATABASE complyflow;
-   CREATE USER complyflow_user WITH PASSWORD 'your_password';
+   CREATE USER complyflow_user WITH PASSWORD '[your_secure_password]';
    GRANT ALL PRIVILEGES ON DATABASE complyflow TO complyflow_user;
    \q
    ```
@@ -232,7 +232,7 @@ Navigate to "APIs & Services" → "Library" and enable:
 
 4. **Connection String**:
    ```
-   postgresql://complyflow_user:your_password@localhost:5432/complyflow
+   postgresql://complyflow_user:[your_secure_password]@localhost:5432/complyflow
    ```
 
 ---

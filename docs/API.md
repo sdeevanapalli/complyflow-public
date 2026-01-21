@@ -121,9 +121,9 @@ Authorization: Bearer <token>
 ```json
 {
   "id": "user-uuid",
-  "email": "user@example.com",
-  "name": "John Doe",
-  "organization": "ABC Corp",
+  "email": "user@company.com",
+  "name": "Sample User",
+  "organization": "Company Name",
   "created_at": "2025-01-21T10:30:00Z"
 }
 ```
@@ -135,8 +135,8 @@ Content-Type: application/json
 Authorization: Bearer <token>
 
 {
-  "name": "John Doe",
-  "organization": "ABC Corp"
+  "name": "Sample User",
+  "organization": "Company Name"
 }
 ```
 

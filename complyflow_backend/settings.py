@@ -224,8 +224,8 @@ SOCIALACCOUNT_PROVIDERS = {
     'google': {
         'APP': {
             # Set your Google OAuth credentials in your .env file. See .env.example for details.
-            'client_id': env('GOOGLE_CLIENT_ID', default='YOUR_CLIENT_ID_HERE'),
-            'secret': env('GOOGLE_CLIENT_SECRET', default='YOUR_CLIENT_SECRET_HERE'),
+            'client_id': env('GOOGLE_CLIENT_ID', default=''),
+            'secret': env('GOOGLE_CLIENT_SECRET', default=''),
             'key': ''
         },
         'SCOPE': [

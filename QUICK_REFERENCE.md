@@ -65,7 +65,7 @@ Your project is now **completely safe for public viewing** with:
 ### 1. Push to GitHub
 ```bash
 cd /Users/shrinikethdeevanapalli/Documents/Programming/WebDev/ComplyFlow-Public
-git remote add origin https://github.com/YOUR_USERNAME/complyflow.git
+git remote add origin https://github.com/sdeevanapalli/complyflow-public.git
 git branch -M main
 git push -u origin main
 ```
