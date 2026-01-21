@@ -1,6 +1,18 @@
 # 🚀 ComplyFlow - AI-Powered Tax Compliance Assistant
 
 ---
+
+## � Contributors
+
+| Name | Contributions |
+| :--- | :--- |
+| [Shriniketh Deevanapalli](https://github.com/sdeevanapalli) (Team Lead) | Repo Management, PR reviews, Deployment |
+| [Vadla Srivardhan](https://github.com/vadlasrivardhan) | Frontend, UI/UX |
+| [Aniketh KB](https://github.com/aniketh2207) | Backend, AI Agents |
+| [Chanakya Y](https://github.com/ychanakya12) | AI Agents, QA, Documentation |
+
+---
+
 ## :warning: Security & Open Source Notice
 
 **This repository is safe for public viewing. All credentials, API keys, and secrets have been removed.**
@@ -385,17 +397,6 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 ## 📜 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-## � Contributors
-
-| Name | Contributions |
-| :--- | :--- |
-| [Shriniketh Deevanapalli](https://github.com/sdeevanapalli) (Team Lead) | Repo Management, PR reviews, Deployment |
-| [Vadla Srivardhan](https://github.com/vadlasrivardhan) | Frontend, UI/UX |
-| [Aniketh KB](https://github.com/aniketh2207) | Backend, AI Agents |
-| [Chanakya Y](https://github.com/ychanakya12) | AI Agents, QA, Documentation |
 
 ---
 
