@@ -395,7 +395,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 | [Shriniketh Deevanapalli](https://github.com/sdeevanapalli) (Team Lead) | Repo Management, PR reviews, Deployment |
 | [Vadla Srivardhan](https://github.com/vadlasrivardhan) | Frontend, UI/UX |
 | [Aniketh KB](https://github.com/aniketh2207) | Backend, AI Agents |
-| [Chaitanya Y](https://github.com/ychanakya12) | AI Agents, QA, Documentation |
+| [Chanakya Y](https://github.com/ychanakya12) | AI Agents, QA, Documentation |
 
 ---
 
