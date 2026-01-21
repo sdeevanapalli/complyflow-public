@@ -1,0 +1,255 @@
+{
+  "categories": [
+    {
+      "id": "itc",
+      "name": "Input Tax Credit (ITC)",
+      "icon": "receipt",
+      "color": "indigo",
+      "scenarios": [
+        {
+          "id": "itc-1",
+          "title": "ITC with Partial Delivery",
+          "description": "Complex scenario involving goods delivered in multiple lots",
+          "difficulty": "Advanced",
+          "questions": [
+            "I purchased raw materials for my factory and received the invoice on 25th August 2024. However, due to a logistics delay, the goods were delivered in three separate lots. The first lot arrived on 28th August, the second on 5th September, and the last lot on 15th September 2024. Can I claim the Input Tax Credit (ITC) for this invoice in my GSTR-3B return for August 2024?",
+            "What if the last lot arrives after the due date for filing the return?",
+            "Which specific rule covers the receipt of goods in multiple lots for ITC purposes?"
+          ]
+        },
+        {
+          "id": "itc-2",
+          "title": "Blocked Credits - Employee Benefits",
+          "description": "Understanding restrictions under Section 17(5)",
+          "difficulty": "Intermediate",
+          "questions": [
+            "Is GST credit allowed on employee food and beverage expenses?",
+            "What if the food is provided through a statutory canteen under the Factories Act?",
+            "Are there any exceptions if I supply the same food services to customers?"
+          ]
+        },
+        {
+          "id": "itc-3",
+          "title": "ITC Reversal Requirements",
+          "description": "When and how to reverse wrongly claimed credit",
+          "difficulty": "Intermediate",
+          "questions": [
+            "I claimed ITC on inputs that were later used for exempt supplies. When should I reverse this credit?",
+            "How do I calculate the reversal amount if goods are used partly for taxable and partly for exempt supplies?",
+            "In which return form should I report the ITC reversal?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "returns",
+      "name": "GST Returns Filing",
+      "icon": "file-text",
+      "color": "teal",
+      "scenarios": [
+        {
+          "id": "returns-1",
+          "title": "Late Filing Penalties",
+          "description": "Understanding late fees and interest calculation",
+          "difficulty": "Basic",
+          "questions": [
+            "My GSTR-3B was filed 18 days late with NIL tax liability. What late fee do I need to pay?",
+            "Is the late fee different for Central GST and State GST?",
+            "Are there any waiver notifications that apply to my case?"
+          ]
+        },
+        {
+          "id": "returns-2",
+          "title": "Amendment in Returns",
+          "description": "Correcting errors in filed returns",
+          "difficulty": "Intermediate",
+          "questions": [
+            "I made an error in my GSTR-1 for July 2024. Can I amend it in August's return?",
+            "What is the time limit for making amendments to invoices?",
+            "Do I need to file a separate amendment return or can it be done in the regular return?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rcm",
+      "name": "Reverse Charge Mechanism",
+      "icon": "repeat",
+      "color": "purple",
+      "scenarios": [
+        {
+          "id": "rcm-1",
+          "title": "Professional Services RCM",
+          "description": "RCM on legal, CA, and other professional services",
+          "difficulty": "Intermediate",
+          "questions": [
+            "Is legal consultancy from a partnership firm to a company covered under reverse charge?",
+            "Which notification or section specifically lists professional services under RCM?",
+            "How should I report this RCM transaction in my GSTR-3B?"
+          ]
+        },
+        {
+          "id": "rcm-2",
+          "title": "GTA Services",
+          "description": "Reverse charge on Goods Transport Agency services",
+          "difficulty": "Advanced",
+          "questions": [
+            "When is reverse charge applicable on GTA services?",
+            "Can I claim ITC on the GST paid under RCM for GTA services in the same return?",
+            "What documents do I need to maintain for RCM on transport services?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "export",
+      "name": "Exports & Imports",
+      "icon": "globe",
+      "color": "green",
+      "scenarios": [
+        {
+          "id": "export-1",
+          "title": "LUT vs IGST for Exports",
+          "description": "Choosing between Letter of Undertaking and IGST payment",
+          "difficulty": "Intermediate",
+          "questions": [
+            "Can I export services under LUT without paying IGST?",
+            "In what situations is claiming IGST refund faster than using LUT?",
+            "What are the eligibility conditions and documentation needed for LUT?"
+          ]
+        },
+        {
+          "id": "export-2",
+          "title": "Deemed Exports",
+          "description": "Understanding deemed export benefits",
+          "difficulty": "Advanced",
+          "questions": [
+            "What qualifies as a deemed export under GST?",
+            "Can I claim refund on deemed exports if the buyer has an advance authorization?",
+            "Which form should I use to claim deemed export benefits?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "einvoicing",
+      "name": "E-Invoicing",
+      "icon": "smartphone",
+      "color": "orange",
+      "scenarios": [
+        {
+          "id": "einv-1",
+          "title": "E-Invoicing Threshold",
+          "description": "When does e-invoicing become mandatory",
+          "difficulty": "Basic",
+          "questions": [
+            "My turnover was 8 crores in FY 2022-23 and 12 crores in FY 2023-24. Is e-invoicing mandatory for me now?",
+            "Does the threshold apply separately for B2B and B2C transactions?",
+            "What are the penalties for non-compliance with e-invoicing?"
+          ]
+        },
+        {
+          "id": "einv-2",
+          "title": "E-Invoice Cancellation",
+          "description": "Rules for cancelling generated e-invoices",
+          "difficulty": "Intermediate",
+          "questions": [
+            "Within what time period can I cancel an e-invoice?",
+            "What happens if goods have already been dispatched when I cancel the e-invoice?",
+            "Do I need to generate a credit note after cancelling an e-invoice?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tos",
+      "name": "Time & Place of Supply",
+      "icon": "clock",
+      "color": "blue",
+      "scenarios": [
+        {
+          "id": "tos-1",
+          "title": "Time of Supply - Services",
+          "description": "Determining when GST becomes payable on services",
+          "difficulty": "Intermediate",
+          "questions": [
+            "I received an advance on 5th January, raised the invoice on 20th January, and completed the service on 25th January. When does GST become payable?",
+            "What happens if the invoice is issued after 30 days of service completion?",
+            "Are there any exceptions for continuous supply of services?"
+          ]
+        },
+        {
+          "id": "tos-2",
+          "title": "Place of Supply - Interstate",
+          "description": "Determining IGST vs CGST/SGST applicability",
+          "difficulty": "Advanced",
+          "questions": [
+            "I provide IT services remotely to a client in Maharashtra while my business is in Karnataka. What is the place of supply?",
+            "What if the client is an SEZ unit - does that change the place of supply?",
+            "Does the billing address vs service delivery location matter?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rates",
+      "name": "GST Rates & Classification",
+      "icon": "tag",
+      "color": "pink",
+      "scenarios": [
+        {
+          "id": "rates-1",
+          "title": "Software as a Service (SaaS)",
+          "description": "GST rate and classification for cloud services",
+          "difficulty": "Basic",
+          "questions": [
+            "What is the GST rate for Software as a Service (SaaS)?",
+            "Is SaaS classified as goods or services under GST?",
+            "Are there any exemptions for educational or healthcare-related SaaS?"
+          ]
+        },
+        {
+          "id": "rates-2",
+          "title": "Composite Supply",
+          "description": "Tax rate on bundled goods and services",
+          "difficulty": "Advanced",
+          "questions": [
+            "I sell a computer with installation and training services as a package. How do I determine the GST rate?",
+            "What is the difference between composite supply and mixed supply?",
+            "Which tax rate applies if multiple items in a bundle have different rates?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "registration",
+      "name": "GST Registration",
+      "icon": "user-check",
+      "color": "cyan",
+      "scenarios": [
+        {
+          "id": "reg-1",
+          "title": "Voluntary Registration",
+          "description": "When to register even if turnover is below threshold",
+          "difficulty": "Basic",
+          "questions": [
+            "My annual turnover is only 15 lakhs but my clients require GST invoices. Should I register voluntarily?",
+            "What are the benefits and obligations of voluntary GST registration?",
+            "Can I cancel voluntary registration if I don't want it anymore?"
+          ]
+        },
+        {
+          "id": "reg-2",
+          "title": "Multiple Business Verticals",
+          "description": "Managing separate registrations",
+          "difficulty": "Intermediate",
+          "questions": [
+            "I run both a restaurant and a clothing store. Do I need separate GST registrations?",
+            "Can I have multiple GSTINs in the same state for different business locations?",
+            "How does ITC work when I have multiple registrations?"
+          ]
+        }
+      ]
+    }
+  ]
+}
