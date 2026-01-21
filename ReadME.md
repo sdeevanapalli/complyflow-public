@@ -329,7 +329,7 @@ Upload a document for compliance analysis.
 
 Get or update user profile.
 
-For complete API documentation, see [API.md](docs/API.md).
+For complete API documentation, including authentication, request/response examples, and error handling, see [API Documentation](docs/API.md).
 
 ---
 
